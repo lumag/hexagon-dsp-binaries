@@ -3,7 +3,7 @@
 # Link: target				source
 
 # Dragonboard 820c
-Install: apq8096			adsp	ADSP.8996.2.7.1-00138
+Install: apq8096/Qualcomm/db820c	adsp	ADSP.8996.2.7.1-00138
 
 # Dragonboard 845c aka RB3
 Install: sdm845/Thundercomm/db845c	adsp	ADSP.HT.4.0-00593-SDM845-1
