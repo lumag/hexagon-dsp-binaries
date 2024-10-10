@@ -1,0 +1,85 @@
+				   **********
+				   * WHENCE *
+				   **********
+
+This file attempts to document the origin and licensing information,
+if known, for each set of binaries distributed within this repository.
+
+--------------------------------------------------------------------------
+
+Dir: apq8096/Qualcomm/db820c/ADSP.8996.2.7.1-00138
+Device: Qualcomm / Arrow Dragonboard 820c
+Licence: Redistributable. See LICENSE.qcom for details
+Origin: https://releases.linaro.org/96boards/dragonboard820c/qualcomm/firmware/linux-board-support-package-r01700.1.zip
+
+--------------------------------------------------------------------------
+
+Dir: sdm845/Thundercomm/db845c/ADSP.HT.4.0-00554-SDM845-1
+Dir: sdm845/Thundercomm/db845c/CDSP.HT.1.0-00535-SDM845-1
+Dir: sdm845/Thundercomm/db845c/SLPI.HY.1.0-00340-SDM845AZL-1
+Device: Thundercomm Dragonboard 845c aka Qualcomm Robotics RB3 Platform
+Licence: Redistributable. See LICENSE.qcom for details
+Origin: https//releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v3.zip
+
+--------------------------------------------------------------------------
+
+Dir: sdm845/Thundercomm/db845c/ADSP.HT.4.0-00593-SDM845-1
+Dir: sdm845/Thundercomm/db845c/CDSP.HT.1.0-00559-SDM845-1
+Dir: sdm845/Thundercomm/db845c/SLPI.HY.1.0-00365-SDM845AZL-1
+Device: Thundercomm Dragonboard 845c aka Qualcomm Robotics RB3 Platform
+Licence: Redistributable. See LICENSE.qcom for details
+Origin: https://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
+
+--------------------------------------------------------------------------
+
+Dir: sm8250/Thundercomm/RB5/ADSP.HT.5.3.c2-00055-SM8250-2
+Dir: sm8250/Thundercomm/RB5/CDSP.HT.2.3.c1-00044-SM8250-2
+Device: Thundercomm / Qualcomm Robotics RB5 Platform
+Licence: Redistributable. See LICENSE.qcom for details
+Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210118133815-v2.zip
+
+--------------------------------------------------------------------------
+
+Dir: sm8250/Thundercomm/RB5/ADSP.HT.5.3.c2-00058-SM8250-3
+Dir: sm8250/Thundercomm/RB5/CDSP.HT.2.3.c1-00060-SM8250-2
+Device: Thundercomm / Qualcomm Robotics RB5 Platform
+Licence: Redistributable. See LICENSE.qcom for details
+Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210331-v4.zip
+
+--------------------------------------------------------------------------
+
+Dir: sm8250/Thundercomm/RB5/SLPI.HY.3.1-00032-SM8250AZL-1
+Device: Thundercomm / Qualcomm Robotics RB5 Platform
+Licence: Redistributable. See LICENSE.qcom for details
+Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210515-v5.zip
+
+--------------------------------------------------------------------------
+
+Dir: sm8250/Thundercomm/RB5/ADSP.HT.5.3.c2-00082-SM8250-1
+Dir: sm8250/Thundercomm/RB5/CDSP.HT.2.3.c1-00076-SM8250-1
+Dir: sm8250/Thundercomm/RB5/SLPI.HY.3.1-00049-SM8250AZL-2
+Device: Thundercomm / Qualcomm Robotics RB5 Platform
+Licence: Redistributable. See LICENSE.qcom for details
+Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20230804-v7.zip
+
+--------------------------------------------------------------------------
+
+Dir: qcm2290/Thundercomm/RB1/ADSP.VT.5.4.1.c4-00013-KAMORTA-1
+Device: Thundercomm / Qualcomm Robotics RB1 Platform
+Licence: Redistributable. See LICENSE.qcom for details
+Origin: https://releases.linaro.org/96boards/rb1/qualcomm/firmware/RB1_firmware_20230823-v2.zip
+
+--------------------------------------------------------------------------
+
+Dir: qrb4210/Thundercomm/RB2/ADSP.VT.5.4.1.c4-00013-KAMORTA-1
+Dir: qrb4210/Thundercomm/RB2/CDSP.VT.2.4.1-00265-KAMORTA-1
+Device: Thundercomm / Qualcomm Robotics RB2 Platform
+Licence: Redistributable. See LICENSE.qcom for details
+Origin: https://releases.linaro.org/96boards/rb2/qualcomm/firmware/RB2_firmware_20230823-v2.zip
+
+--------------------------------------------------------------------------
+
+Dir: qrb4210/Thundercomm/RB2/CDSP.VT.2.4.1-00269-KAMORTA-1
+Device: Thundercomm / Qualcomm Robotics RB2 Platform
+Licence: Redistributable. See LICENSE.qcom for details
+Origin: https://releases.linaro.org/96boards/rb2/qualcomm/firmware/RB2_firmware_20231124-v4.zip
