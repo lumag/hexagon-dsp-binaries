@@ -30,6 +30,10 @@ do_install() {
 
 	mkdir -p "${dstdir}"
 	install -m 0644 "${srcdir}"/* "${dstdir}"
+
+	# FIXME: if the licence ever changes, it has to be read from the WHENCE
+	# file.
+	install -m 0644 LICENSE.qcom "${dstdir}"
 }
 
 # dest target link
