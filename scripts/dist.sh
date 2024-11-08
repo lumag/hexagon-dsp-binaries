@@ -47,6 +47,11 @@ do
 	esac
 done
 
+grep ^Licence WHENCE | cut -d ' ' -f 2 | while read licence
+do
+	[ -r "${DST}/$licence" ] || install -m 0644 $licence "${DST}"
+done
+
 cp -r scripts/ Makefile config.txt ${DST}
 
 ./scripts/filter_whence.py config.txt WHENCE ${DST}/WHENCE
