@@ -47,4 +47,6 @@ do
 	esac
 done
 
-cp -r scripts/ Makefile WHENCE config.txt ${DST}
+cp -r scripts/ Makefile config.txt ${DST}
+
+./scripts/filter_whence.py config.txt WHENCE ${DST}/WHENCE
