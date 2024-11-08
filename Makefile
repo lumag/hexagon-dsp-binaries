@@ -20,4 +20,7 @@ dist:
 	@echo "Created dist/$(TARGET)"
 	@rm -rf release
 
-.PHONY: dist
+check:
+	./scripts/check_whence.py
+
+.PHONY: dist check
