@@ -1,0 +1,26 @@
+name: Check
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+jobs:
+  check:
+    name: make check
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+
+      - name: Check
+        run: make check
+
+      - name: Dist
+        run: make dist
+
+      - name: Check install
+        run: make install DESTDIR=`pwd`/install
