@@ -77,6 +77,10 @@ Install: sm8750/Qualcomm/SM8750-MTP	cdsp	CDSP.HT.3.1-00889-PAKALA-1
 Install: eliza/Qualcomm/Eliza-MTP	adsp	LPAIDSP.HT.1.2.c2-00064-PAKALA-3
 Install: eliza/Qualcomm/Eliza-MTP	cdsp	CDSP.HT.3.1-00889-PAKALA-1
 
+# ELIZA CQS EVK
+Link: eliza/Qualcomm/Eliza-MTP/dsp/adsp	eliza/Qualcomm/Eliza-CQS-EVK/dsp/adsp
+Link: eliza/Qualcomm/Eliza-MTP/dsp/cdsp	eliza/Qualcomm/Eliza-CQS-EVK/dsp/cdsp
+
 # KAANAPALI MTP
 Install: kaanapali/Qualcomm/Kaanapali-MTP	adsp	LPAIDSP.HT.1.6.1-00035-KAANAPALI-1
 Install: kaanapali/Qualcomm/Kaanapali-MTP	cdsp	CDSP.HT.3.2.c1-00001-KAANAPALI-3
