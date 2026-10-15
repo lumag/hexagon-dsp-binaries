@@ -134,6 +134,11 @@ Link: sa8775p/Qualcomm/SA8775P-RIDE/dsp/cdsp1	sa8775p/Qualcomm/IQ9075-EVK/dsp/cd
 Link: sa8775p/Qualcomm/SA8775P-RIDE/dsp/gdsp0	sa8775p/Qualcomm/IQ9075-EVK/dsp/gdsp0
 Link: sa8775p/Qualcomm/SA8775P-RIDE/dsp/gdsp1	sa8775p/Qualcomm/IQ9075-EVK/dsp/gdsp1
 
+# Monaco Draco EVK
+Link: sa8775p/Qualcomm/SA8775P-RIDE/dsp/adsp	qcs8300/Qualcomm/Monaco-Draco-EVK/dsp/adsp
+Link: qcs8300/Qualcomm/QCS8300-RIDE/dsp/cdsp	qcs8300/Qualcomm/Monaco-Draco-EVK/dsp/cdsp
+Link: sa8775p/Qualcomm/SA8775P-RIDE/dsp/gdsp0	qcs8300/Qualcomm/Monaco-Draco-EVK/dsp/gdsp0
+
 # Purwa IoT EVK
 Link: x1e80100/Qualcomm/Hamoa-IoT-EVK/dsp/adsp	x1p42100/Qualcomm/Purwa-IoT-EVK/dsp/adsp
 Link: x1e80100/Qualcomm/Hamoa-IoT-EVK/dsp/cdsp	x1p42100/Qualcomm/Purwa-IoT-EVK/dsp/cdsp
