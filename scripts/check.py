@@ -278,6 +278,26 @@ def load_machine_dsp_paths():
 
     return paths if okay else None
 
+def check_config_sorted(config_data):
+    """Check that config.txt entries are sorted by board and DSP."""
+    ret = True
+    prev = None
+    for data in config_data:
+        if data[0] == "install":
+            (lineno, path, dsp, subdir) = data[1:]
+            key = (path, dsp)
+        else:
+            (lineno, src_path, dst_path) = data[1:]
+            (board, _, dsp) = dst_path.rsplit("/", 2)
+            key = (board, dsp)
+
+        if prev is not None and key < prev:
+            sys.stderr.write("config.txt: %d: entry for %s/dsp/%s is not sorted, should come before %s/dsp/%s\n" % (lineno, *key, *prev))
+            ret = False
+        prev = key
+
+    return ret
+
 def check_links_installed(config_data):
     """Check that every Link: target is installed by an Install: line."""
     installed = set()
@@ -422,6 +442,9 @@ def main():
         okay = False
 
     if not check_links_installed(config_data):
+        okay = False
+
+    if not check_config_sorted(config_data):
         okay = False
 
     for entry in dirs.keys():

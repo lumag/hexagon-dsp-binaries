@@ -42,7 +42,13 @@ WHENCE file documents orignal locations for the tarballs with the library files.
    come with a different licence or a specific `Origin:` URL), add a new
    block. Blocks are sorted alphabetically by their first `Dir:` line, so
    place a new block accordingly.
-3. Add an `Install:` line to `config.txt` referencing the new path.
+3. Add an `Install:` line to `config.txt` referencing the new path. Each
+   `config.txt` section, headed by a comment, describes one board: the
+   `Install:` lines for its DSPs and the `Link:` lines pointing to binaries
+   installed for another board. Sections are sorted by the board path (the
+   first column of `Install:` lines, the destination of `Link:` lines), and
+   lines within a section are sorted by DSP. Every `Link:` target must be
+   installed by an `Install:` line.
 4. Run `make check` to validate the new entries.
 
 ## Validating against an installed linux-firmware tree
