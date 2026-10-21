@@ -33,8 +33,14 @@ WHENCE file documents orignal locations for the tarballs with the library files.
 
 1. Place the new binary directory under the appropriate SoC path (e.g.
    `qcs6490/Thundercomm/RubikPi3/<version>/`).
-2. Add a corresponding `Dir:` block to `WHENCE`, including `Licence:` and
-   `Status:` fields.
+2. Add a `Dir:` line for the new directory to `WHENCE`. Each `WHENCE` block
+   lists one or more `Dir:` lines, sorted alphabetically, followed by the
+   `Device:`, `Licence:`, `Status:` and optional `Origin:` fields shared by
+   all of them. If the device already has a block with the same `Device:`,
+   `Licence:` and `Status:` fields and no `Origin:`, add the new `Dir:` line
+   to that block, keeping the lines sorted. Otherwise (e.g. when the binaries
+   come with a different licence or a specific `Origin:` URL), add a new
+   block.
 3. Add an `Install:` line to `config.txt` referencing the new path.
 4. Run `make check` to validate the new entries.
 

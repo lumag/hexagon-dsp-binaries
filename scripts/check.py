@@ -20,6 +20,13 @@ def verify_data(data):
 
     blocklineno = min(data['dirs'].values())
 
+    prev = None
+    for (entry, lineno) in data['dirs'].items():
+        if prev is not None and entry < prev:
+            sys.stderr.write("WHENCE:%d: dir %s is not sorted, should come before %s\n" % (lineno, entry, prev))
+            ret = False
+        prev = entry
+
     for (entry, lineno) in data['dirs'].items():
         if not os.path.exists(entry):
             sys.stderr.write("WHENCE:%d: dir %s doesn't exist\n" % (lineno, entry))
