@@ -278,6 +278,24 @@ def load_machine_dsp_paths():
 
     return paths if okay else None
 
+def check_links_installed(config_data):
+    """Check that every Link: target is installed by an Install: line."""
+    installed = set()
+    for data in config_data:
+        if data[0] == "install":
+            (lineno, path, dsp, subdir) = data[1:]
+            installed.add("%s/dsp/%s" % (path, dsp))
+
+    ret = True
+    for data in config_data:
+        if data[0] == "link":
+            (lineno, src_path, dst_path) = data[1:]
+            if src_path not in installed:
+                sys.stderr.write("config.txt: %d: link target '%s' is not installed\n" % (lineno, src_path))
+                ret = False
+
+    return ret
+
 def check_config_against_machine_paths(config_data, machine_paths):
     """Check that config.txt paths are consistent with configuration YAML files."""
     if machine_paths is None:
@@ -401,6 +419,9 @@ def main():
 
     # Check config.txt paths against 00-hexagon-dsp-binaries.yaml
     if not check_config_against_machine_paths(config_data, machine_paths):
+        okay = False
+
+    if not check_links_installed(config_data):
         okay = False
 
     for entry in dirs.keys():
