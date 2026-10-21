@@ -99,7 +99,7 @@ Install: hawi/Qualcomm/Hawi-MTP	cdsp	CDSP.HT.3.6-00501.6-HAWI-1
 
 # MAILI MTP
 Install: maili/Qualcomm/Maili-MTP	adsp	LPAIDSP.HT.1.6-00701.4-HAWI-3
-Link: hawi/Qualcomm/Hawi-MTP/dsp/cdsp	 maili/Qualcomm/Maili-MTP/dsp/cdsp
+Link: hawi/Qualcomm/Hawi-MTP/dsp/cdsp	maili/Qualcomm/Maili-MTP/dsp/cdsp
 
 # SA8797P Ride Embedded
 Install: nord/Qualcomm/SA8797P-Ride-Embedded	adsp	adsp-HPASS.AT.1.0.1-00003-NORD-6
@@ -109,10 +109,10 @@ Install: nord/Qualcomm/SA8797P-Ride-Embedded	cdsp	cdsp-NSP.AT.1.0-00579-NORD-1
 # Shikra CQS EVK
 Install: shikra/Qualcomm/Shikra-CQS-EVK	cdsp	CDSP.VT.2.4.3-00088-SHIKRA-1
 
-# Shikra CQM EVK 
+# Shikra CQM EVK
 Link: shikra/Qualcomm/Shikra-CQS-EVK/dsp/cdsp	shikra/Qualcomm/Shikra-CQM-EVK/dsp/cdsp
 
-# Shikra IQS EVK 
+# Shikra IQS EVK
 Link: shikra/Qualcomm/Shikra-CQS-EVK/dsp/cdsp	shikra/Qualcomm/Shikra-IQS-EVK/dsp/cdsp
 
 # Arduino Monza
@@ -145,5 +145,5 @@ Link: x1e80100/Qualcomm/Hamoa-IoT-EVK/dsp/adsp	x1p42100/Qualcomm/Purwa-IoT-EVK/d
 Link: x1e80100/Qualcomm/Hamoa-IoT-EVK/dsp/cdsp	x1p42100/Qualcomm/Purwa-IoT-EVK/dsp/cdsp
 
 # QCM6490 IDP
-Link: qcm6490/Thundercomm/RB3gen2/dsp/adsp      qcm6490/Qualcomm/QCM6490-IDP/dsp/adsp
-Link: qcm6490/Thundercomm/RB3gen2/dsp/cdsp      qcm6490/Qualcomm/QCM6490-IDP/dsp/cdsp
+Link: qcm6490/Thundercomm/RB3gen2/dsp/adsp	qcm6490/Qualcomm/QCM6490-IDP/dsp/adsp
+Link: qcm6490/Thundercomm/RB3gen2/dsp/cdsp	qcm6490/Qualcomm/QCM6490-IDP/dsp/cdsp
