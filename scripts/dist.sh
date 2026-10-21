@@ -54,13 +54,6 @@ do
 done
 
 install -d ${DST}/conf.d
-for conf in conf.d/*.yaml
-do
-	if [ -e "${conf}" ]
-	then
-		install -m 0644 "${conf}" ${DST}/conf.d/
-	fi
-done
 install -m 0644 conf.d/schema.json ${DST}/conf.d/
 
 install -d ${DST}/scripts

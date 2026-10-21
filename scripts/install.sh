@@ -71,15 +71,6 @@ do_reuse() {
 do_conf() {
 	mkdir -p "$1/conf.d"
 
-	# static configuration files
-	for conf in conf.d/*.yaml
-	do
-		if [ -e "${conf}" ]
-		then
-			install -m 0644 "${conf}" "$1/conf.d"
-		fi
-	done
-
 	awk -v dst="$1/conf.d" '
 	$1 == "Machine:" {
 		name = $0
