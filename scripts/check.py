@@ -340,9 +340,17 @@ def main():
     dirs = {}
     licences = {'LICENSE.MIT' : None}
 
+    prev = None
     for data in load_whence():
         if not verify_data(data):
             okay = False
+
+        if data['dirs']:
+            (first, lineno) = next(iter(data['dirs'].items()))
+            if prev is not None and first < prev:
+                sys.stderr.write("WHENCE:%d: block for %s is not sorted, should come before %s\n" % (lineno, first, prev))
+                okay = False
+            prev = first
 
         dirs.update(dict.fromkeys(data['dirs'].keys()))
         if 'licence' in data:

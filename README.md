@@ -40,7 +40,8 @@ WHENCE file documents orignal locations for the tarballs with the library files.
    `Licence:` and `Status:` fields and no `Origin:`, add the new `Dir:` line
    to that block, keeping the lines sorted. Otherwise (e.g. when the binaries
    come with a different licence or a specific `Origin:` URL), add a new
-   block.
+   block. Blocks are sorted alphabetically by their first `Dir:` line, so
+   place a new block accordingly.
 3. Add an `Install:` line to `config.txt` referencing the new path.
 4. Run `make check` to validate the new entries.
 
