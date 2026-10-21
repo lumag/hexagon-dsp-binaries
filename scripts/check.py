@@ -20,6 +20,13 @@ def verify_data(data):
 
     blocklineno = min(data['dirs'].values())
 
+    prev = None
+    for (entry, lineno) in data['dirs'].items():
+        if prev is not None and entry < prev:
+            sys.stderr.write("WHENCE:%d: dir %s is not sorted, should come before %s\n" % (lineno, entry, prev))
+            ret = False
+        prev = entry
+
     for (entry, lineno) in data['dirs'].items():
         if not os.path.exists(entry):
             sys.stderr.write("WHENCE:%d: dir %s doesn't exist\n" % (lineno, entry))
@@ -271,6 +278,44 @@ def load_machine_dsp_paths():
 
     return paths if okay else None
 
+def check_config_sorted(config_data):
+    """Check that config.txt entries are sorted by board and DSP."""
+    ret = True
+    prev = None
+    for data in config_data:
+        if data[0] == "install":
+            (lineno, path, dsp, subdir) = data[1:]
+            key = (path, dsp)
+        else:
+            (lineno, src_path, dst_path) = data[1:]
+            (board, _, dsp) = dst_path.rsplit("/", 2)
+            key = (board, dsp)
+
+        if prev is not None and key < prev:
+            sys.stderr.write("config.txt: %d: entry for %s/dsp/%s is not sorted, should come before %s/dsp/%s\n" % (lineno, *key, *prev))
+            ret = False
+        prev = key
+
+    return ret
+
+def check_links_installed(config_data):
+    """Check that every Link: target is installed by an Install: line."""
+    installed = set()
+    for data in config_data:
+        if data[0] == "install":
+            (lineno, path, dsp, subdir) = data[1:]
+            installed.add("%s/dsp/%s" % (path, dsp))
+
+    ret = True
+    for data in config_data:
+        if data[0] == "link":
+            (lineno, src_path, dst_path) = data[1:]
+            if src_path not in installed:
+                sys.stderr.write("config.txt: %d: link target '%s' is not installed\n" % (lineno, src_path))
+                ret = False
+
+    return ret
+
 def check_config_against_machine_paths(config_data, machine_paths):
     """Check that config.txt paths are consistent with configuration YAML files."""
     if machine_paths is None:
@@ -333,9 +378,17 @@ def main():
     dirs = {}
     licences = {'LICENSE.MIT' : None}
 
+    prev = None
     for data in load_whence():
         if not verify_data(data):
             okay = False
+
+        if data['dirs']:
+            (first, lineno) = next(iter(data['dirs'].items()))
+            if prev is not None and first < prev:
+                sys.stderr.write("WHENCE:%d: block for %s is not sorted, should come before %s\n" % (lineno, first, prev))
+                okay = False
+            prev = first
 
         dirs.update(dict.fromkeys(data['dirs'].keys()))
         if 'licence' in data:
@@ -386,6 +439,12 @@ def main():
 
     # Check config.txt paths against 00-hexagon-dsp-binaries.yaml
     if not check_config_against_machine_paths(config_data, machine_paths):
+        okay = False
+
+    if not check_links_installed(config_data):
+        okay = False
+
+    if not check_config_sorted(config_data):
         okay = False
 
     for entry in dirs.keys():

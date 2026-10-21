@@ -19,61 +19,57 @@ Licence: LICENSE.qcom
 Status: Redistributable
 Origin: https://releases.linaro.org/96boards/dragonboard820c/qualcomm/firmware/linux-board-support-package-r01700.1.zip
 
---------------------------------------------------------------------------
-
-Dir: sdm845/Thundercomm/db845c/ADSP.HT.4.0-00554-SDM845-1
-Dir: sdm845/Thundercomm/db845c/CDSP.HT.1.0-00535-SDM845-1
-Dir: sdm845/Thundercomm/db845c/SLPI.HY.1.0-00340-SDM845AZL-1
-Device: Thundercomm Dragonboard 845c aka Qualcomm Robotics RB3 Platform
-Licence: LICENSE.qcom
+-------------------------------------------------------------------------
+Dir: eliza/Qualcomm/Eliza-MTP/CDSP.HT.3.1-00889-PAKALA-1
+Dir: eliza/Qualcomm/Eliza-MTP/LPAIDSP.HT.1.2.c2-00064-PAKALA-3
+Device: Qualcomm Technologies, Inc. Eliza MTP
+Licence: LICENSE.qcom-2
 Status: Redistributable
-Origin: https//releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v3.zip
 
---------------------------------------------------------------------------
-
-Dir: sdm845/Thundercomm/db845c/ADSP.HT.4.0-00593-SDM845-1
-Dir: sdm845/Thundercomm/db845c/CDSP.HT.1.0-00559-SDM845-1
-Dir: sdm845/Thundercomm/db845c/SLPI.HY.1.0-00365-SDM845AZL-1
-Device: Thundercomm Dragonboard 845c aka Qualcomm Robotics RB3 Platform
-Licence: LICENSE.qcom
+-------------------------------------------------------------------------
+Dir: glymur/Qualcomm/Glymur-CRD/CDSP.HT.3.3-00302-GLYMUR-1
+Dir: glymur/Qualcomm/Glymur-CRD/CDSP.HT.3.3-00311-GLYMUR-1
+Dir: glymur/Qualcomm/Glymur-CRD/CDSP.HT.3.3-00315-GLYMUR-1
+Dir: glymur/Qualcomm/Glymur-CRD/LPAIDSP.HT.1.6.2-00001-GLYMUR-1
+Dir: glymur/Qualcomm/Glymur-CRD/LPAIDSP.HT.1.6.2-00009-GLYMUR-2
+Dir: glymur/Qualcomm/Glymur-CRD/LPAIDSP.HT.1.6.2-00020-GLYMUR-2
+Dir: glymur/Qualcomm/Glymur-CRD/LPAIDSP.HT.1.6.2-00064-GLYMUR-1
+Dir: glymur/Qualcomm/Glymur-CRD/LPAIDSP.HT.1.6.c1-00007-GLYMUR-3
+Device: Qualcomm Technologies, Inc. Glymur CRD
+Licence: LICENSE.qcom-2
 Status: Redistributable
-Origin: https://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
-
---------------------------------------------------------------------------
-
-Dir: sm8250/Thundercomm/RB5/ADSP.HT.5.3.c2-00055-SM8250-2
-Dir: sm8250/Thundercomm/RB5/CDSP.HT.2.3.c1-00044-SM8250-2
-Device: Thundercomm / Qualcomm Robotics RB5 Platform
-Licence: LICENSE.qcom
-Status: Redistributable
-Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210118133815-v2.zip
 
 --------------------------------------------------------------------------
-
-Dir: sm8250/Thundercomm/RB5/ADSP.HT.5.3.c2-00058-SM8250-3
-Dir: sm8250/Thundercomm/RB5/CDSP.HT.2.3.c1-00060-SM8250-2
-Device: Thundercomm / Qualcomm Robotics RB5 Platform
-Licence: LICENSE.qcom
+Dir: hawi/Qualcomm/Hawi-MTP/CDSP.HT.3.6-00501.6-HAWI-1
+Dir: hawi/Qualcomm/Hawi-MTP/LPAIDSP.HT.1.6-00701.4-HAWI-3
+Device: Qualcomm Technologies, Inc. Hawi MTP
+Licence: LICENSE.qcom-2
 Status: Redistributable
-Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210331-v4.zip
 
 --------------------------------------------------------------------------
-
-Dir: sm8250/Thundercomm/RB5/SLPI.HY.3.1-00032-SM8250AZL-1
-Device: Thundercomm / Qualcomm Robotics RB5 Platform
-Licence: LICENSE.qcom
+Dir: kaanapali/Qualcomm/Kaanapali-MTP/CDSP.HT.3.2-00726.1-KAANAPALI-1
+Dir: kaanapali/Qualcomm/Kaanapali-MTP/CDSP.HT.3.2.c1-00001-KAANAPALI-3
+Dir: kaanapali/Qualcomm/Kaanapali-MTP/LPAIDSP.HT.1.6-00223-KAANAPALI-1
+Dir: kaanapali/Qualcomm/Kaanapali-MTP/LPAIDSP.HT.1.6.1-00001-KAANAPALI-1
+Dir: kaanapali/Qualcomm/Kaanapali-MTP/LPAIDSP.HT.1.6.1-00002-KAANAPALI-1
+Dir: kaanapali/Qualcomm/Kaanapali-MTP/LPAIDSP.HT.1.6.1-00035-KAANAPALI-1
+Device: Qualcomm Technologies, Inc. Kaanapali MTP
+Licence: LICENSE.qcom-2
 Status: Redistributable
-Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210515-v5.zip
 
 --------------------------------------------------------------------------
-
-Dir: sm8250/Thundercomm/RB5/ADSP.HT.5.3.c2-00082-SM8250-1
-Dir: sm8250/Thundercomm/RB5/CDSP.HT.2.3.c1-00076-SM8250-1
-Dir: sm8250/Thundercomm/RB5/SLPI.HY.3.1-00049-SM8250AZL-2
-Device: Thundercomm / Qualcomm Robotics RB5 Platform
-Licence: LICENSE.qcom
+Dir: maili/Qualcomm/Maili-MTP/LPAIDSP.HT.1.6-00701.4-HAWI-3
+Device: Qualcomm Technologies, Inc. Maili MTP
+Licence: LICENSE.qcom-2
 Status: Redistributable
-Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20230804-v7.zip
+
+--------------------------------------------------------------------------
+Dir: nord/Qualcomm/SA8797P-Ride-Embedded/adsp-HPASS.AT.1.0.1-00003-NORD-6
+Dir: nord/Qualcomm/SA8797P-Ride-Embedded/adsp1-HPASS.AT.1.0.1-00003-NORD-6
+Dir: nord/Qualcomm/SA8797P-Ride-Embedded/cdsp-NSP.AT.1.0-00579-NORD-1
+Device: Qualcomm Technologies, Inc. SA8797P Ride Embedded
+Licence: LICENSE.qcom-2
+Status: Redistributable
 
 --------------------------------------------------------------------------
 
@@ -82,6 +78,128 @@ Device: Thundercomm / Qualcomm Robotics RB1 Platform
 Licence: LICENSE.qcom
 Status: Redistributable
 Origin: https://releases.linaro.org/96boards/rb1/qualcomm/firmware/RB1_firmware_20230823-v2.zip
+
+--------------------------------------------------------------------------
+
+Dir: qcm6490/Thundercomm/RB3gen2/ADSP.HT.5.5.c8-00149-KODIAK-1
+Dir: qcm6490/Thundercomm/RB3gen2/CDSP.HT.2.5.c3-00077-KODIAK-1
+Device: Thundercomm / Qualcomm Robotics RB3Gen2 Platform
+Licence: LICENSE.qcom
+Status: Redistributable
+Origin: https://artifacts.codelinaro.org/artifactory/qli-ci/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00039.2/QCM6490.LE.1.0/common/build/ufs/bin/QCM6490_dspso.zip
+
+--------------------------------------------------------------------------
+
+Dir: qcm6490/Thundercomm/RB3gen2/ADSP.HT.5.5.c8-00217-KODIAK-1
+Dir: qcm6490/Thundercomm/RB3gen2/CDSP.HT.2.5.c3-00103-KODIAK-1
+Device: Thundercomm / Qualcomm Robotics RB3Gen2 Platform
+Licence: LICENSE.qcom
+Status: Redistributable
+Origin: https://qartifactory-edge.qualcomm.com/ui/native/qsc_releases/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00095.0/qcm6490-le-1-0/common/build/ufs/bin/QCM6490_dspso.zip
+
+--------------------------------------------------------------------------
+
+Dir: qcm6490/Thundercomm/RB3gen2/ADSP.HT.5.5.c8-00246-KODIAK-1
+Dir: qcm6490/Thundercomm/RB3gen2/ADSP.HT.5.5.c8-00249.1-KODIAK-1
+Dir: qcm6490/Thundercomm/RB3gen2/ADSP.HT.5.5.c8-00256.2-KODIAK-1
+Dir: qcm6490/Thundercomm/RB3gen2/CDSP.HT.2.5.c3-00134-KODIAK-1
+Device: Thundercomm / Qualcomm Robotics RB3Gen2 Platform
+Licence: LICENSE.qcom
+Status: Redistributable
+
+-------------------------------------------------------------------------
+
+Dir: qcm6490/Thundercomm/RB3gen2/CDSP.HT.2.5.c3-00130-KODIAK-1
+Device: Thundercomm / Qualcomm Robotics RB3Gen2 Platform
+Licence: LICENSE.qcom
+Status: Redistributable
+Origin: https://qartifactory-edge.qualcomm.com/ui/native/qsc_releases/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00112.0/qcm6490-le-1-0/common/build/ufs/bin/QCM6490_dspso.zip
+
+--------------------------------------------------------------------------
+
+Dir: qcs615/Qualcomm/QCS615-RIDE/ADSP.VT.5.2.c6-00059-SM6150-1
+Dir: qcs615/Qualcomm/QCS615-RIDE/CDSP.VT.2.2.c4-00019-SM6150-1
+Device: Qualcomm Technologies, Inc. QCS615 Ride
+Licence: LICENSE.qcom-2
+Status: Redistributable
+Origin: https://softwarecenter.qualcomm.com/nexus/generic/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00102.0/qcs615-le-1-0/common/build/common/bin/QCS615_dspso.zip
+
+--------------------------------------------------------------------------
+
+Dir: qcs615/Qualcomm/QCS615-RIDE/ADSP.VT.5.2.c6-00073-SM6150-1
+Dir: qcs615/Qualcomm/QCS615-RIDE/ADSP.VT.5.2.c6-00095-SM6150-8
+Device: Qualcomm Technologies, Inc. QCS615 Ride
+Licence: LICENSE.qcom-2
+Status: Redistributable
+
+--------------------------------------------------------------------------
+
+Dir: qcs6490/Thundercomm/RubikPi3/ADSP.HT.5.5.c8-00217-KODIAK-1
+Device: Thundercomm RUBIK Pi 3
+Licence: LICENSE.qcom
+Status: Redistributable
+
+--------------------------------------------------------------------------
+
+Dir: qcs6490/Thundercomm/RubikPi3/ADSP.HT.5.5.c8-00249.1-KODIAK-1
+Device: Thundercomm RUBIK Pi 3
+Licence: LICENSE.qcom-2
+Status: Redistributable
+
+--------------------------------------------------------------------------
+Dir: qcs6490/radxa/dragon-q6a/ADSP.HT.5.5.c9-00028-KODIAK-2
+Dir: qcs6490/radxa/dragon-q6a/CDSP.HT.2.5.c4-00004-KODIAK-1
+Device: Radxa Dragon Q6A
+Licence: LICENSE.qcom
+Status: Redistributable
+
+--------------------------------------------------------------------------
+
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00096-LEMANS-1
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00096-LEMANS-1
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00096-LEMANS-1
+Device: Qualcomm Technologies, Inc. QCS8300 Ride
+Licence: LICENSE.qcom-2
+Status: Redistributable
+Origin: https://qartifactory-edge.qualcomm.com/artifactory/qsc_releases/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00068.0/qcs8300-le-1-0/common/build/ufs/bin/QCS8300_dspso.zip
+
+--------------------------------------------------------------------------
+
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00125.5-LEMANS-1
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00125.5-LEMANS-1
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00125.5-LEMANS-1
+Device: Qualcomm Technologies, Inc. QCS8300 Ride
+Licence: LICENSE.qcom-2
+Status: Redistributable
+Origin: https://qartifactory-edge.qualcomm.com/ui/native/qsc_releases/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00095.0/qcs8300-le-1-0/common/build/ufs/bin//QCS8300_dspso.zip
+
+--------------------------------------------------------------------------
+
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00163-LEMANS-1
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00163-LEMANS-1
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00163-LEMANS-1
+Device: Qualcomm Technologies, Inc. QCS8300 Ride
+Licence: LICENSE.qcom-2
+Status: Redistributable
+Origin: https://softwarecenter.qualcomm.com/nexus/generic/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00103.0/qcs8300-le-1-0/common/build/ufs/bin/QCS8300_dspso.zip
+
+--------------------------------------------------------------------------
+
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00170-LEMANS-1
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00196-LEMANS-2
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00201-LEMANS-2
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00204-LEMANS-1
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00170-LEMANS-1
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00196-LEMANS-2
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00201-LEMANS-2
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00204-LEMANS-1
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00170-LEMANS-1
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00196-LEMANS-2
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00201-LEMANS-2
+Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00204-LEMANS-1
+Device: Qualcomm Technologies, Inc. QCS8300 Ride
+Licence: LICENSE.qcom-2
+Status: Redistributable
 
 --------------------------------------------------------------------------
 
@@ -99,81 +217,6 @@ Device: Thundercomm / Qualcomm Robotics RB2 Platform
 Licence: LICENSE.qcom
 Status: Redistributable
 Origin: https://releases.linaro.org/96boards/rb2/qualcomm/firmware/RB2_firmware_20231124-v4.zip
-
---------------------------------------------------------------------------
-
-Dir: qcm6490/Thundercomm/RB3gen2/ADSP.HT.5.5.c8-00149-KODIAK-1
-Dir: qcm6490/Thundercomm/RB3gen2/CDSP.HT.2.5.c3-00077-KODIAK-1
-Device: Thundercomm / Qualcomm Robotics RB2 Platform
-Licence: LICENSE.qcom
-Status: Redistributable
-Origin: https://artifacts.codelinaro.org/artifactory/qli-ci/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00039.2/QCM6490.LE.1.0/common/build/ufs/bin/QCM6490_dspso.zip
-
---------------------------------------------------------------------------
-
-Dir: qcm6490/Thundercomm/RB3gen2/ADSP.HT.5.5.c8-00217-KODIAK-1
-Dir: qcm6490/Thundercomm/RB3gen2/CDSP.HT.2.5.c3-00103-KODIAK-1
-Device: Thundercomm / Qualcomm Robotics RB3Gen2 Platform
-Licence: LICENSE.qcom
-Status: Redistributable
-Origin: https://qartifactory-edge.qualcomm.com/ui/native/qsc_releases/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00095.0/qcm6490-le-1-0/common/build/ufs/bin/QCM6490_dspso.zip
-
--------------------------------------------------------------------------
-
-Dir: qcm6490/Thundercomm/RB3gen2/CDSP.HT.2.5.c3-00130-KODIAK-1
-Device: Thundercomm / Qualcomm Robotics RB3Gen2 Platform
-Licence: LICENSE.qcom
-Status: Redistributable
-Origin: https://qartifactory-edge.qualcomm.com/ui/native/qsc_releases/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00112.0/qcm6490-le-1-0/common/build/ufs/bin/QCM6490_dspso.zip
-
---------------------------------------------------------------------------
-
-Dir: qcm6490/Thundercomm/RB3gen2/CDSP.HT.2.5.c3-00134-KODIAK-1
-Device: Thundercomm / Qualcomm Robotics RB3Gen2 Platform
-Licence: LICENSE.qcom
-Status: Redistributable
-
---------------------------------------------------------------------------
-
-Dir: qcm6490/Thundercomm/RB3gen2/ADSP.HT.5.5.c8-00246-KODIAK-1
-Device: Thundercomm / Qualcomm Robotics RB3Gen2 Platform
-Licence: LICENSE.qcom
-Status: Redistributable
-
---------------------------------------------------------------------------
-
-Dir: qcm6490/Thundercomm/RB3gen2/ADSP.HT.5.5.c8-00249.1-KODIAK-1
-Device: Thundercomm / Qualcomm Robotics RB3Gen2 Platform
-Licence: LICENSE.qcom
-Status: Redistributable
-
---------------------------------------------------------------------------
-
-Dir: qcm6490/Thundercomm/RB3gen2/ADSP.HT.5.5.c8-00256.2-KODIAK-1
-Device: Thundercomm / Qualcomm Robotics RB3Gen2 Platform
-Licence: LICENSE.qcom
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: qcs6490/radxa/dragon-q6a/ADSP.HT.5.5.c9-00028-KODIAK-2
-Dir: qcs6490/radxa/dragon-q6a/CDSP.HT.2.5.c4-00004-KODIAK-1
-Device: Radxa Dragon Q6A
-Licence: LICENSE.qcom
-Status: Redistributable
-
---------------------------------------------------------------------------
-
-Dir: qcs6490/Thundercomm/RubikPi3/ADSP.HT.5.5.c8-00217-KODIAK-1
-Device: Thundercomm RUBIK Pi 3
-Licence: LICENSE.qcom
-Status: Redistributable
-
---------------------------------------------------------------------------
-
-Dir: qcs6490/Thundercomm/RubikPi3/ADSP.HT.5.5.c8-00249.1-KODIAK-1
-Device: Thundercomm RUBIK Pi 3
-Licence: LICENSE.qcom-2
-Status: Redistributable
 
 --------------------------------------------------------------------------
 Dir: sa8775p/Qualcomm/SA8775P-RIDE/adsp-DSP.AT.1.0.1-00079.2-LEMANS-1
@@ -213,42 +256,25 @@ Origin: https://softwarecenter.qualcomm.com/nexus/generic/software/chip/qualcomm
 --------------------------------------------------------------------------
 
 Dir: sa8775p/Qualcomm/SA8775P-RIDE/adsp-DSP.AT.1.0.1-00190-LEMANS-1
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp-DSP.AT.1.0.1-00190-LEMANS-1
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp1-DSP.AT.1.0.1-00190-LEMANS-1
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp0-DSP.AT.1.0.1-00190-LEMANS-1
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp1-DSP.AT.1.0.1-00190-LEMANS-1
-Device: Qualcomm SA8775P RIDE
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-
 Dir: sa8775p/Qualcomm/SA8775P-RIDE/adsp-DSP.AT.1.0.1-00196-LEMANS-2
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp-DSP.AT.1.0.1-00196-LEMANS-2
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp1-DSP.AT.1.0.1-00196-LEMANS-2
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp0-DSP.AT.1.0.1-00196-LEMANS-2
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp1-DSP.AT.1.0.1-00196-LEMANS-2
-Device: Qualcomm SA8775P RIDE
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-
 Dir: sa8775p/Qualcomm/SA8775P-RIDE/adsp-DSP.AT.1.0.1-00201-LEMANS-2
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp-DSP.AT.1.0.1-00201-LEMANS-2
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp1-DSP.AT.1.0.1-00201-LEMANS-2
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp0-DSP.AT.1.0.1-00201-LEMANS-2
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp1-DSP.AT.1.0.1-00201-LEMANS-2
-Device: Qualcomm SA8775P RIDE
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-
 Dir: sa8775p/Qualcomm/SA8775P-RIDE/adsp-DSP.AT.1.0.1-00204-LEMANS-1
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/adsp-DSP.AT.1.0.1-00205-LEMANS-1
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp-DSP.AT.1.0.1-00190-LEMANS-1
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp-DSP.AT.1.0.1-00196-LEMANS-2
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp-DSP.AT.1.0.1-00201-LEMANS-2
 Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp-DSP.AT.1.0.1-00204-LEMANS-1
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp1-DSP.AT.1.0.1-00190-LEMANS-1
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp1-DSP.AT.1.0.1-00196-LEMANS-2
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp1-DSP.AT.1.0.1-00201-LEMANS-2
 Dir: sa8775p/Qualcomm/SA8775P-RIDE/cdsp1-DSP.AT.1.0.1-00204-LEMANS-1
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp0-DSP.AT.1.0.1-00190-LEMANS-1
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp0-DSP.AT.1.0.1-00196-LEMANS-2
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp0-DSP.AT.1.0.1-00201-LEMANS-2
 Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp0-DSP.AT.1.0.1-00204-LEMANS-1
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp1-DSP.AT.1.0.1-00190-LEMANS-1
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp1-DSP.AT.1.0.1-00196-LEMANS-2
+Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp1-DSP.AT.1.0.1-00201-LEMANS-2
 Dir: sa8775p/Qualcomm/SA8775P-RIDE/gdsp1-DSP.AT.1.0.1-00204-LEMANS-1
 Device: Qualcomm SA8775P RIDE
 Licence: LICENSE.qcom-2
@@ -256,97 +282,75 @@ Status: Redistributable
 
 --------------------------------------------------------------------------
 
-Dir: sa8775p/Qualcomm/SA8775P-RIDE/adsp-DSP.AT.1.0.1-00205-LEMANS-1
-Device: Qualcomm SA8775P RIDE
+Dir: sdm845/Thundercomm/db845c/ADSP.HT.4.0-00554-SDM845-1
+Dir: sdm845/Thundercomm/db845c/CDSP.HT.1.0-00535-SDM845-1
+Dir: sdm845/Thundercomm/db845c/SLPI.HY.1.0-00340-SDM845AZL-1
+Device: Thundercomm Dragonboard 845c aka Qualcomm Robotics RB3 Platform
+Licence: LICENSE.qcom
+Status: Redistributable
+Origin: https//releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v3.zip
+
+--------------------------------------------------------------------------
+
+Dir: sdm845/Thundercomm/db845c/ADSP.HT.4.0-00593-SDM845-1
+Dir: sdm845/Thundercomm/db845c/CDSP.HT.1.0-00559-SDM845-1
+Dir: sdm845/Thundercomm/db845c/SLPI.HY.1.0-00365-SDM845AZL-1
+Device: Thundercomm Dragonboard 845c aka Qualcomm Robotics RB3 Platform
+Licence: LICENSE.qcom
+Status: Redistributable
+Origin: https://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
+
+-------------------------------------------------------------------------
+Dir: shikra/Qualcomm/Shikra-CQS-EVK/CDSP.VT.2.4.3-00076-SHIKRA-1
+Dir: shikra/Qualcomm/Shikra-CQS-EVK/CDSP.VT.2.4.3-00088-SHIKRA-1
+Device: Qualcomm Technologies, Inc. Shikra CQS EVK
 Licence: LICENSE.qcom-2
 Status: Redistributable
 
 --------------------------------------------------------------------------
 
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00096-LEMANS-1
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00096-LEMANS-1
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00096-LEMANS-1
-Device: Qualcomm Technologies, Inc. QCS8300 Ride
-Licence: LICENSE.qcom-2
+Dir: sm8250/Thundercomm/RB5/ADSP.HT.5.3.c2-00055-SM8250-2
+Dir: sm8250/Thundercomm/RB5/CDSP.HT.2.3.c1-00044-SM8250-2
+Device: Thundercomm / Qualcomm Robotics RB5 Platform
+Licence: LICENSE.qcom
 Status: Redistributable
-Origin: https://qartifactory-edge.qualcomm.com/artifactory/qsc_releases/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00068.0/qcs8300-le-1-0/common/build/ufs/bin/QCS8300_dspso.zip
+Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210118133815-v2.zip
 
 --------------------------------------------------------------------------
 
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00125.5-LEMANS-1
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00125.5-LEMANS-1
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00125.5-LEMANS-1
-Device: Qualcomm Technologies, Inc. QCS8300 Ride
-Licence: LICENSE.qcom-2
+Dir: sm8250/Thundercomm/RB5/ADSP.HT.5.3.c2-00058-SM8250-3
+Dir: sm8250/Thundercomm/RB5/CDSP.HT.2.3.c1-00060-SM8250-2
+Device: Thundercomm / Qualcomm Robotics RB5 Platform
+Licence: LICENSE.qcom
 Status: Redistributable
-Origin: https://qartifactory-edge.qualcomm.com/ui/native/qsc_releases/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00095.0/qcs8300-le-1-0/common/build/ufs/bin//QCS8300_dspso.zip
+Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210331-v4.zip
 
 --------------------------------------------------------------------------
 
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00163-LEMANS-1
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00163-LEMANS-1
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00163-LEMANS-1
-Device: Qualcomm Technologies, Inc. QCS8300 Ride
-Licence: LICENSE.qcom-2
+Dir: sm8250/Thundercomm/RB5/ADSP.HT.5.3.c2-00082-SM8250-1
+Dir: sm8250/Thundercomm/RB5/CDSP.HT.2.3.c1-00076-SM8250-1
+Dir: sm8250/Thundercomm/RB5/SLPI.HY.3.1-00049-SM8250AZL-2
+Device: Thundercomm / Qualcomm Robotics RB5 Platform
+Licence: LICENSE.qcom
 Status: Redistributable
-Origin: https://softwarecenter.qualcomm.com/nexus/generic/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00103.0/qcs8300-le-1-0/common/build/ufs/bin/QCS8300_dspso.zip
+Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20230804-v7.zip
 
 --------------------------------------------------------------------------
 
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00170-LEMANS-1
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00170-LEMANS-1
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00170-LEMANS-1
-Device: Qualcomm Technologies, Inc. QCS8300 Ride
-Licence: LICENSE.qcom-2
+Dir: sm8250/Thundercomm/RB5/SLPI.HY.3.1-00032-SM8250AZL-1
+Device: Thundercomm / Qualcomm Robotics RB5 Platform
+Licence: LICENSE.qcom
 Status: Redistributable
+Origin: https://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210515-v5.zip
 
 --------------------------------------------------------------------------
-
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00196-LEMANS-2
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00196-LEMANS-2
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00196-LEMANS-2
-Device: Qualcomm Technologies, Inc. QCS8300 Ride
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00201-LEMANS-2
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00201-LEMANS-2
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00201-LEMANS-2
-Device: Qualcomm Technologies, Inc. QCS8300 Ride
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/adsp-DSP.AT.1.0.1-00204-LEMANS-1
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/cdsp-DSP.AT.1.0.1-00204-LEMANS-1
-Dir: qcs8300/Qualcomm/QCS8300-RIDE/gdsp0-DSP.AT.1.0.1-00204-LEMANS-1
-Device: Qualcomm Technologies, Inc. QCS8300 Ride
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-
-Dir: qcs615/Qualcomm/QCS615-RIDE/ADSP.VT.5.2.c6-00059-SM6150-1
-Dir: qcs615/Qualcomm/QCS615-RIDE/CDSP.VT.2.2.c4-00019-SM6150-1
-Device: Qualcomm Technologies, Inc. QCS615 Ride
-Licence: LICENSE.qcom-2
-Status: Redistributable
-Origin: https://softwarecenter.qualcomm.com/nexus/generic/software/chip/qualcomm_linux-spf-1-0/qualcomm-linux-spf-1-0_test_device_public/r1.0_00102.0/qcs615-le-1-0/common/build/common/bin/QCS615_dspso.zip
-
---------------------------------------------------------------------------
-
-Dir: qcs615/Qualcomm/QCS615-RIDE/ADSP.VT.5.2.c6-00073-SM6150-1
-Device: Qualcomm Technologies, Inc. QCS615 Ride
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-
-Dir: qcs615/Qualcomm/QCS615-RIDE/ADSP.VT.5.2.c6-00095-SM6150-8
-Device: Qualcomm Technologies, Inc. QCS615 Ride
+Dir: sm8750/Qualcomm/SM8750-MTP/CDSP.HT.3.1-00883-PAKALA-1
+Dir: sm8750/Qualcomm/SM8750-MTP/CDSP.HT.3.1-00889-PAKALA-1
+Dir: sm8750/Qualcomm/SM8750-MTP/LPAIDSP.HT.1.2.c1-00379-PAKALA-1
+Dir: sm8750/Qualcomm/SM8750-MTP/LPAIDSP.HT.1.2.c1-00450-PAKALA-2
+Dir: sm8750/Qualcomm/SM8750-MTP/LPAIDSP.HT.1.2.c2-00001-PAKALA-1
+Dir: sm8750/Qualcomm/SM8750-MTP/LPAIDSP.HT.1.2.c2-00021-PAKALA-1
+Device: Qualcomm Technologies, Inc. SM8750 MTP
 Licence: LICENSE.qcom-2
 Status: Redistributable
 
@@ -360,179 +364,10 @@ Origin: https://softwarecenter.qualcomm.com/nexus/generic/software/chip/ubuntu_q
 
 --------------------------------------------------------------------------
 Dir: x1e80100/Qualcomm/Hamoa-IoT-EVK/ADSP.HT.5.9-00837-HAMOA-1
-Device: Qualcomm Technologies, Inc. Hamoa IoT EVK
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
 Dir: x1e80100/Qualcomm/Hamoa-IoT-EVK/ADSP.HT.5.9-00839-HAMOA-1
-Device: Qualcomm Technologies, Inc. Hamoa IoT EVK
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
+Dir: x1e80100/Qualcomm/Hamoa-IoT-EVK/ADSP.HT.5.9.c7-00004-HAMOA-1
 Dir: x1e80100/Qualcomm/Hamoa-IoT-EVK/CDSP.HT.2.9.c1-00082-HAMOA-1
-Device: Qualcomm Technologies, Inc. Hamoa IoT EVK
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
 Dir: x1e80100/Qualcomm/Hamoa-IoT-EVK/CDSP.HT.2.9.c1-00094-HAMOA-1
 Device: Qualcomm Technologies, Inc. Hamoa IoT EVK
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: x1e80100/Qualcomm/Hamoa-IoT-EVK/ADSP.HT.5.9.c7-00004-HAMOA-1
-Device: Qualcomm Technologies, Inc. Hamoa IoT EVK
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: sm8750/Qualcomm/SM8750-MTP/LPAIDSP.HT.1.2.c1-00379-PAKALA-1
-Dir: sm8750/Qualcomm/SM8750-MTP/CDSP.HT.3.1-00883-PAKALA-1
-Device: Qualcomm Technologies, Inc. SM8750 MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: sm8750/Qualcomm/SM8750-MTP/LPAIDSP.HT.1.2.c1-00450-PAKALA-2
-Dir: sm8750/Qualcomm/SM8750-MTP/CDSP.HT.3.1-00889-PAKALA-1
-Device: Qualcomm Technologies, Inc. SM8750 MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: sm8750/Qualcomm/SM8750-MTP/LPAIDSP.HT.1.2.c2-00001-PAKALA-1
-Device: Qualcomm Technologies, Inc. SM8750 MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
---------------------------------------------------------------------------
-Dir: sm8750/Qualcomm/SM8750-MTP/LPAIDSP.HT.1.2.c2-00021-PAKALA-1
-Device: Qualcomm Technologies, Inc. SM8750 MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
---------------------------------------------------------------------------
-Dir: kaanapali/Qualcomm/Kaanapali-MTP/LPAIDSP.HT.1.6-00223-KAANAPALI-1
-Dir: kaanapali/Qualcomm/Kaanapali-MTP/CDSP.HT.3.2-00726.1-KAANAPALI-1
-Device: Qualcomm Technologies, Inc. Kaanapali MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: kaanapali/Qualcomm/Kaanapali-MTP/LPAIDSP.HT.1.6.1-00001-KAANAPALI-1
-Device: Qualcomm Technologies, Inc. Kaanapali MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: kaanapali/Qualcomm/Kaanapali-MTP/LPAIDSP.HT.1.6.1-00002-KAANAPALI-1
-Device: Qualcomm Technologies, Inc. Kaanapali MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: kaanapali/Qualcomm/Kaanapali-MTP/LPAIDSP.HT.1.6.1-00035-KAANAPALI-1
-Device: Qualcomm Technologies, Inc. Kaanapali MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
--------------------------------------------------------------------------
-Dir: glymur/Qualcomm/Glymur-CRD/LPAIDSP.HT.1.6.c1-00007-GLYMUR-3
-Dir: glymur/Qualcomm/Glymur-CRD/CDSP.HT.3.3-00302-GLYMUR-1
-Device: Qualcomm Technologies, Inc. Glymur CRD
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: kaanapali/Qualcomm/Kaanapali-MTP/CDSP.HT.3.2.c1-00001-KAANAPALI-3
-Device: Qualcomm Technologies, Inc. Kaanapali MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
--------------------------------------------------------------------------
-Dir: glymur/Qualcomm/Glymur-CRD/LPAIDSP.HT.1.6.2-00001-GLYMUR-1
-Device: Qualcomm Technologies, Inc. Glymur CRD
-Licence: LICENSE.qcom-2
-Status: Redistributable
--------------------------------------------------------------------------
-Dir: glymur/Qualcomm/Glymur-CRD/LPAIDSP.HT.1.6.2-00009-GLYMUR-2
-Device: Qualcomm Technologies, Inc. Glymur CRD
-Licence: LICENSE.qcom-2
-Status: Redistributable
--------------------------------------------------------------------------
-Dir: glymur/Qualcomm/Glymur-CRD/CDSP.HT.3.3-00311-GLYMUR-1
-Device: Qualcomm Technologies, Inc. Glymur CRD
-Licence: LICENSE.qcom-2
-Status: Redistributable
--------------------------------------------------------------------------
-Dir: glymur/Qualcomm/Glymur-CRD/CDSP.HT.3.3-00315-GLYMUR-1
-Device: Qualcomm Technologies, Inc. Glymur CRD
-Licence: LICENSE.qcom-2
-Status: Redistributable
--------------------------------------------------------------------------
-Dir: glymur/Qualcomm/Glymur-CRD/LPAIDSP.HT.1.6.2-00020-GLYMUR-2
-Device: Qualcomm Technologies, Inc. Glymur CRD
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
--------------------------------------------------------------------------
-Dir: glymur/Qualcomm/Glymur-CRD/LPAIDSP.HT.1.6.2-00064-GLYMUR-1
-Device: Qualcomm Technologies, Inc. Glymur CRD
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
--------------------------------------------------------------------------
-Dir: shikra/Qualcomm/Shikra-CQS-EVK/CDSP.VT.2.4.3-00076-SHIKRA-1
-Device: Qualcomm Technologies, Inc. Shikra CQS EVK
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
--------------------------------------------------------------------------
-Dir: shikra/Qualcomm/Shikra-CQS-EVK/CDSP.VT.2.4.3-00088-SHIKRA-1
-Device: Qualcomm Technologies, Inc. Shikra CQS EVK
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
--------------------------------------------------------------------------
-Dir: eliza/Qualcomm/Eliza-MTP/CDSP.HT.3.1-00889-PAKALA-1
-Device: Qualcomm Technologies, Inc. Eliza MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
--------------------------------------------------------------------------
-Dir: eliza/Qualcomm/Eliza-MTP/LPAIDSP.HT.1.2.c2-00064-PAKALA-3
-Device: Qualcomm Technologies, Inc. Eliza MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: hawi/Qualcomm/Hawi-MTP/CDSP.HT.3.6-00501.6-HAWI-1
-Device: Qualcomm Technologies, Inc. Hawi MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: hawi/Qualcomm/Hawi-MTP/LPAIDSP.HT.1.6-00701.4-HAWI-3
-Device: Qualcomm Technologies, Inc. Hawi MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: maili/Qualcomm/Maili-MTP/LPAIDSP.HT.1.6-00701.4-HAWI-3
-Device: Qualcomm Technologies, Inc. Maili MTP
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: nord/Qualcomm/SA8797P-Ride-Embedded/adsp-HPASS.AT.1.0.1-00003-NORD-6
-Dir: nord/Qualcomm/SA8797P-Ride-Embedded/adsp1-HPASS.AT.1.0.1-00003-NORD-6
-Device: Qualcomm Technologies, Inc. SA8797P Ride Embedded
-Licence: LICENSE.qcom-2
-Status: Redistributable
-
---------------------------------------------------------------------------
-Dir: nord/Qualcomm/SA8797P-Ride-Embedded/cdsp-NSP.AT.1.0-00579-NORD-1
-Device: Qualcomm Technologies, Inc. SA8797P Ride Embedded
 Licence: LICENSE.qcom-2
 Status: Redistributable
